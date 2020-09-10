@@ -1,0 +1,47 @@
+Given a string S, partition s such that every substring of the partition is a palindrome.
+Return all possible palindrome partitioning of s
+
+Input Description:
+A string S as input.
+
+Output Description:
+Print all possible palindrome partitioning of s
+
+Sample Input:
+aab
+
+Sample Output:
+['a', 'a', 'b'] ['aa', 'b']
+
+Explanation:
+The printed set of palindrome are the partitioning from the given S.
+
+Sample Input:
+wwrer
+
+Sample Output:
+['w', 'w', 'r', 'e', 'r'] ['w', 'w', 'rer'] ['ww', 'r', 'e', 'r'] ['ww', 'rer']
+
+Sample Input:
+mnmmbg
+
+Sample Output:
+['m', 'n', 'm', 'm', 'b', 'g'] ['m', 'n', 'mm', 'b', 'g'] ['mnm', 'm', 'b', 'g']
+
+Sample Input:
+madam
+
+Sample Output:
+['m', 'a', 'd', 'a', 'm'] ['m', 'ada', 'm'] ['madam']
+
+Sample Input:
+goog
+
+Sample Output:
+['g', 'o', 'o', 'g'] ['g', 'oo', 'g'] ['goog']
+
+Sample Input:
+poorpr
+
+Sample Output:
+['p', 'o', 'o', 'r', 'p', 'r'] ['p', 'o', 'o', 'rpr'] ['p', 'oo', 'r', 'p', 'r'] ['p', 'oo', 'rpr']
